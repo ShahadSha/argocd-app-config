@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: name-test ${BUILD_NUMBER}
+  name: name-test "${BUILD_NUMBER}" 
   namespace: argocd
 spec:
   project: default
